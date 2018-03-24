@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.eyalerez.popularmoviesstage2.displayExtraMovieData">
+
+    <TextView
+        android:id="@+id/movieNameExtraData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="38sp" />
+
+    <ListView
+        android:id="@+id/lv_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:id="@+id/sv_reviewContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="22sp"
+            android:visibility="gone"/>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/expandExtraDataBackButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="bottom"
+        android:textAlignment="center"
+        android:text="Close"
+        android:visibility="gone"/>
+</LinearLayout>

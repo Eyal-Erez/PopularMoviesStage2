@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Popular Movies Stage 2</string>
+    <string name="title_Popular">Popular</string>
+    <string name="title_Top_Rated">Top Rated</string>
+    <string name="title_liked">Liked</string>
+    <string name="but_reviews">Reviews</string>
+    <string name="but_videos">Videos</string>
+</resources>
